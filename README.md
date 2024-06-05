@@ -62,16 +62,22 @@
 ## Yêu Cầu Chức Năng
 ### Tổng quan chức năng
 #### Tác nhân
-- **Quản Lý**: Là người nắm tất cả các quyền trong hệ thống. Họ có thể thêm, xóa sửa tất cả thông tin.
-- **Nhân viên**: Là người nắm quyền quản lý lịch thực hành và lớp học phần. Có thể xem thông tin sinh viên, khu phòng, đăng ký phòng, chuyển phòng, trả phòng.
+
+| Tác Nhân  | Miêu Tả                                                                                  |
+|-----------|------------------------------------------------------------------------------------------|
+| Quản Lý   | Là người nắm tất cả các quyền trong hệ thống. Họ có thể thêm, xóa sửa tất cả thông tin. |
+| Nhân viên | Là người nắm quyền quản lý lịch thực hành và lớp học phần. Có thể xem thông tin sinh viên, khu phòng, đăng ký phòng, chuyển phòng, trả phòng. |
+
 
 ### Sơ đồ Use-Case
-- (![image](https://github.com/hyans221/QLPMT_Project_Nhom11/assets/89960460/02b6a4e8-58eb-4a23-8dbc-1920c024d207)
-)
+- ![image](https://github.com/hyans221/QLPMT_Project_Nhom11/assets/89960460/02b6a4e8-58eb-4a23-8dbc-1920c024d207)
+
+### Sơ đồ hoạt động
+- ![image](https://github.com/hyans221/QLPMT_Project_Nhom11/assets/89960460/6e79944b-c6e5-4e3d-8e9f-b486923bb2cf)
 
 ### Sơ đồ BFD
-- (![image](https://github.com/hyans221/QLPMT_Project_Nhom11/assets/89960460/c95207d3-1b26-4b6f-a734-cc885e05f2c0)
-)
+- ![image](https://github.com/hyans221/QLPMT_Project_Nhom11/assets/89960460/c95207d3-1b26-4b6f-a734-cc885e05f2c0)
+
 
 ## Công Nghệ Sử Dụng
 - **Ngôn ngữ lập trình**: PHP, JavaScript
