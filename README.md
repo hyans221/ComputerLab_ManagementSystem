@@ -1,86 +1,105 @@
-# QLPMT_Project_Nhom11
+# Computer_Lab_ManagementSystem_Team11
 
-## Thành Viên Đóng Góp
-| Thành Viên           | Tỉ Lệ Đóng Góp | Công Việc                                                  |
-|----------------------|----------------|------------------------------------------------------------|
-| Huỳnh Huy Hùng       | 33%            | Giao diện trang chủ, đăng nhập, phân quyền, tổng hợp, word |
-| Nguyễn Thị Thu Thảo  | 33%            | Quản lý lịch thực hành, lớp học phần, word                 |
-| Hà Văn Thy           | 33%            | Quản lý người dùng, phòng máy, máy tính, tổng hợp, word    |
+## Team Contributions
 
+| Member                | Contribution (%) | Responsibilities                                              |
+|-----------------------|------------------|---------------------------------------------------------------|
+| **Huỳnh Huy Hùng**    | 33%              | Developed homepage, login, user roles, and permissions.       |
+| **Nguyễn Thị Thu Thảo** | 33%              | Managed lab schedules, class management, and system testing.  |
+| **Hà Văn Thy**        | 33%              | User management, computer lab, and maintenance functionalities.|
 
-## Link Đăng Nhập
-- [Đăng nhập](https://nhom11php.000webhostapp.com/DoAn_QLyPMT_Nhom11/login.php)
+## System Access
 
-## Các Tài Khoản Đăng Nhập
+- **[Login Here](https://nhom11php.000webhostapp.com/DoAn_QLyPMT_Nhom11/login.php)**
+
+### User Credentials
+
 - **Admin**: 
-  - Tài khoản: `huyhung`
-  - Mật khẩu: `123`
-- **Giáo viên**: 
-  - Tài khoản: `hihun`
-  - Mật khẩu: `123`
+  - Username: `huyhung`
+  - Password: `123`
+- **Teacher**: 
+  - Username: `hihun`
+  - Password: `123`
+  - Username: `vanthy`
+  - Password: `123`
+  - Username: `thuthao`
+  - Password: `123`
 
-## Chức Năng Quản Lý
-### Quản lý lớp học phần
-- **Thêm mới lớp học**: Tạo lập thông tin chi tiết về lớp học, bao gồm tên lớp, giáo viên phụ trách, môn học giảng dạy, niên khóa.
-- **Cập nhật thông tin**: Thay đổi thông tin lớp học khi có thay đổi, đảm bảo tính chính xác và cập nhật.
-- **Phân loại lớp học**: Lọc theo tiêu chí cụ thể (môn học, khối lớp, giáo viên, v.v.) để phục vụ mục đích quản lý.
-- **Xem thông tin lớp học**: Truy cập thông tin chi tiết về từng lớp học một cách nhanh chóng và dễ dàng.
+## Key Features
 
-### Quản lý phòng máy
-- **Thêm mới phòng máy**: Ghi chép thông tin chi tiết về phòng máy, bao gồm tên phòng, vị trí, số lượng máy tính, cấu hình phần cứng, phần mềm.
-- **Cập nhật thông tin**: Thay đổi thông tin phòng máy khi có thay đổi, đảm bảo tính chính xác và cập nhật.
-- **Phân loại phòng máy**: Lọc theo tiêu chí cụ thể (vị trí, loại phòng, sức chứa, v.v.) để phục vụ mục đích quản lý.
-- **Xem thông tin phòng máy**: Truy cập thông tin chi tiết về từng phòng máy một cách nhanh chóng và dễ dàng.
+### 1. Class and Schedule Management
+- **Create New Classes**: Set up detailed information including class name, instructor, subject, and academic year.
+- **Update Information**: Modify class details as needed, ensuring accurate and up-to-date records.
+- **Class Filtering**: Filter classes by subject, grade level, or instructor for easy management.
+- **View Class Information**: Access detailed class information quickly and easily.
 
-### Quản lý giảng viên
-- **Tạo lập hồ sơ giảng viên**: Ghi chép thông tin cá nhân chi tiết, phân loại theo khoa, bộ môn, chức danh, học hàm học vị.
-- **Cập nhật thông tin**: Thay đổi thông tin giảng viên khi cần thiết, đảm bảo tính chính xác và nhất quán.
-- **Phân loại giảng viên**: Lọc theo tiêu chí cụ thể (khoa, bộ môn, chức danh, v.v.) để phục vụ mục đích quản lý.
-- **Xem thông tin giảng viên**: Truy cập hồ sơ cá nhân của từng giảng viên một cách nhanh chóng và dễ dàng.
+### 2. Lab Management
+- **Add New Labs**: Record lab details including room name, location, number of computers, and hardware/software specs.
+- **Update Lab Details**: Make changes to lab information as necessary to maintain accuracy.
+- **Lab Filtering**: Organize labs based on specific criteria like location, type, or capacity.
+- **View Lab Details**: Quickly access information about each lab.
 
-### Quản lý lịch thực hành
-- **Lên lịch thực hành**: Tạo lịch học chi tiết cho từng lớp học, bao gồm môn học, thời gian, phòng máy, giảng viên phụ trách.
-- **Cập nhật lịch thực hành**: Thay đổi lịch học khi có thay đổi, đảm bảo tính chính xác và cập nhật.
-- **Phân loại lịch thực hành**: Lọc theo tiêu chí cụ thể (môn học, lớp học, giảng viên, v.v.) để dễ dàng tra cứu.
-- **Xem thông tin lịch thực hành**: Truy cập lịch học chi tiết của từng lớp học một cách nhanh chóng và dễ dàng.
+### 3. Computer Management
+- **Add Computers**: Record detailed information about each computer, including hardware configuration, software, and operational status.
+- **Update Computer Information**: Modify computer details as required to keep data current.
+- **Categorize Computers**: Filter by computer type, configuration, or operating system for efficient management.
+- **View Computer Information**: Access specific computer details swiftly.
 
-### Quản lý máy tính
-- **Thêm mới máy tính**: Ghi chép thông tin chi tiết về từng máy tính, bao gồm cấu hình phần cứng, phần mềm, tình trạng hoạt động, vị trí lắp đặt.
-- **Cập nhật thông tin**: Thay đổi thông tin máy tính khi có thay đổi, đảm bảo tính chính xác và cập nhật.
-- **Phân loại máy tính**: Lọc theo tiêu chí cụ thể (loại máy, cấu hình, hệ điều hành, v.v.) để phục vụ mục đích quản lý.
-- **Xem thông tin máy tính**: Truy cập thông tin chi tiết về từng máy tính một cách nhanh chóng và dễ dàng.
+### 4. User and Role Management
+- **Admin and Faculty Roles**: Assign specific permissions to admins and faculty, restricting or granting access to various features.
+- **Access Control**: Admins have full access, while teachers manage class and schedule-related functions.
 
-### Thống kê
-- **Thống kê số lượng học phần sử dụng phòng máy**: Cho phép thống kê số lượng học phần sử dụng phòng máy theo môn học, lớp học, v.v.
-- **Thống kê số lượng máy tính**: Cho phép thống kê số lượng máy tính theo phòng máy, loại máy, v.v.
+### 5. Practice Schedule Management
+- **Schedule Lab Sessions**: Plan detailed schedules for classes, including subjects, timing, assigned lab, and instructor.
+- **Update Schedules**: Adjust schedules easily to reflect any changes in class or lab availability.
+- **Schedule Filtering**: Organize schedules based on criteria like subject, class, or instructor.
+- **View Schedule Details**: Easily view detailed practice schedules for all classes.
 
-## Yêu Cầu Chất Lượng
-- Giao diện đơn giản, dễ sử dụng.
-- Ngôn ngữ tiếng Việt.
-- Tốc độ xử lý nhanh chóng, dễ dàng.
+### 6. Reporting and Statistics
+- **Lab Utilization Reports**: Generate reports on lab usage, tracking which classes are using which labs and when.
+- **Computer Inventory Reports**: View detailed reports on the status and location of all computers across labs.
 
-## Yêu Cầu Chức Năng
-### Tổng quan chức năng
-#### Tác nhân
+## System Diagrams
 
-| Tác Nhân  | Miêu Tả                                                                                  |
-|-----------|------------------------------------------------------------------------------------------|
-| Quản Lý   | Là người nắm tất cả các quyền trong hệ thống. Họ có thể thêm, xóa sửa tất cả thông tin. |
-| Nhân viên | Là người nắm quyền quản lý lịch thực hành và lớp học phần. Có thể xem thông tin sinh viên, khu phòng, đăng ký phòng, chuyển phòng, trả phòng. |
+### Use Case Diagram
+Illustrates how different users interact with the system.
 
+![Use Case Diagram](https://github.com/hyans221/QLPMT_Project_Nhom11/assets/89960460/02b6a4e8-58eb-4a23-8dbc-1920c024d207)
 
-### Sơ đồ Use-Case
-- ![image](https://github.com/hyans221/QLPMT_Project_Nhom11/assets/89960460/02b6a4e8-58eb-4a23-8dbc-1920c024d207)
+### Activity Diagram
+Shows the flow of activities within the system, from login to lab management.
 
-### Sơ đồ hoạt động
-- ![image](https://github.com/hyans221/QLPMT_Project_Nhom11/assets/89960460/6e79944b-c6e5-4e3d-8e9f-b486923bb2cf)
+![Activity Diagram](https://github.com/hyans221/QLPMT_Project_Nhom11/assets/89960460/6e79944b-c6e5-4e3d-8e9f-b486923bb2cf)
 
-### Sơ đồ BFD
-- ![image](https://github.com/hyans221/QLPMT_Project_Nhom11/assets/89960460/c95207d3-1b26-4b6f-a734-cc885e05f2c0)
+### BFD Diagram
+Outlines the main functional blocks of the system and their relationships.
 
+![BFD Diagram](https://github.com/hyans221/QLPMT_Project_Nhom11/assets/89960460/c95207d3-1b26-4b6f-a734-cc885e05f2c0)
 
-## Công Nghệ Sử Dụng
-- **Ngôn ngữ lập trình**: PHP, JavaScript
-- **Cơ sở dữ liệu**: MySQL
-- **Giao diện người dùng**: Bootstrap, jQuery, HTML, CSS
-- **Hệ điều hành**: Windows
+## Technology Stack
+
+- **Programming Languages**: PHP, JavaScript
+- **Database**: MySQL
+- **Frontend**: HTML, CSS, Bootstrap, jQuery
+- **Server Environment**: Apache on Linux
+- **Operating System**: Windows
+
+## System Quality Requirements
+
+- **Simple Interface**: User-friendly design that requires minimal training.
+- **Language**: Entire system is available in Vietnamese.
+- **Performance**: Fast processing speeds with minimal load times.
+
+## Functional Requirements
+
+| Role      | Description                                                                                 |
+|-----------|---------------------------------------------------------------------------------------------|
+| **Admin** | Full access to all system functions, including adding, editing, and deleting information.   |
+| **Faculty** | Manages lab schedules and classes, can view student and lab information, and manage bookings.|
+
+## Future Enhancements
+
+- **Remote Lab Management**: Add remote control features to manage computer settings directly from the admin interface.
+- **Advanced Analytics**: Incorporate more detailed reporting and data analysis tools.
+- **Mobile Accessibility**: Optimize the system for mobile use, allowing on-the-go management.
+
