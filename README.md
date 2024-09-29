@@ -1,4 +1,4 @@
-# ComputerLab_ManagementSystem_Team11
+# Computer Lab Management System
 
 ## Team Contributions
 
