@@ -102,4 +102,3 @@ Outlines the main functional blocks of the system and their relationships.
 - **Remote Lab Management**: Add remote control features to manage computer settings directly from the admin interface.
 - **Advanced Analytics**: Incorporate more detailed reporting and data analysis tools.
 - **Mobile Accessibility**: Optimize the system for mobile use, allowing on-the-go management.
-
